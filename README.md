@@ -1,4 +1,4 @@
-BSD Journal
+BSD Journey
 ===
 
 This note will be a mainly about FreeBSD stuff. start from installing a fresh system to configure to usable state and will cover things that aren't in a FreeBSD handbook, a small stuff that sometimes essential for user to know
