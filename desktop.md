@@ -32,9 +32,10 @@ Font
 
 Default font come will Xserver is monospace font and may not support UTF-8, to check all avaliable font use `fc-list` and all installed font will be output to console.
 
-Font can be find using `grep`. For example find all Monospace font with 
+Font name can be find using `grep` and pipe with `fc-list`, for example
 
 ```sh
+# find Monospace font
 fc-list | grep Mono
 ```
 

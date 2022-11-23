@@ -21,6 +21,7 @@ Checklist for Linux application on BSD, stuffs in list was already tested in VM.
 - polybar
 - spotify
 - DRM contents
-- System-wide fonts
+- System-wide fonts (UTF-8 font)
 
 ## Stuff that don't work
+
