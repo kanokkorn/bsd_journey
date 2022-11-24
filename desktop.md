@@ -50,3 +50,25 @@ Ly
 ---
 
 A better login screen compare to default one. It provide options to switch between desktop environment if installed more than one on system.
+
+For config ly to running at startup, first add these following line to `/etc/gettytab`
+
+```sh
+Ly:\
+  :lo=/usr/local/bin/ly:\
+    :al=root:
+```
+
+also, modify `ttyv1` to example below for terminal entry in `/etc/ttys`
+
+```sh
+ttyv1   "/usr/libexec/getty Ly"         xterm   on secure
+```
+
+sndio
+---
+
+Sound server written for OpenBSD but has been port to variety of BSD, it's lightweight and provide per-application volume control.
+
+Usually come bundle with Chromium or Firefox
+
